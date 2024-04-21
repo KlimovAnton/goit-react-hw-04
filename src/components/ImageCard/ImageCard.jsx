@@ -4,6 +4,8 @@ export default function ImageCard ({ image }) {
             <img
                 src={image.urls.small}
                 alt={image.alt_description} 
+                width="290"
+                height="290"
             />
         </div>
     )

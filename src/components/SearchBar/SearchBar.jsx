@@ -7,7 +7,7 @@ export default function SearchBar ({ onSearch }) {
             <Formik
                 initialValues={{ query: "" }}
                 onSubmit={(values, actions) => {
-                    onSearch(values)
+                    onSearch(values.query)
                     actions.resetForm()
                 }}
             >
