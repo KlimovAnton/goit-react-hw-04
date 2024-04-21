@@ -1,13 +1,15 @@
 .form {
     display: flex;
     justify-content: center;
-    border-radius: 24px;
+    padding: 10px;
     gap: 25px;
+    background-color: bisque;
 }
 
 .input {
     border: 1px solid black;
     border-radius: 5px;
+    outline: none;
 }
 
 .input:hover, .input:focus {
@@ -19,8 +21,13 @@
     border: 1px solid black;
     border-radius: 5px;
     padding: 5px 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 5px;
 }
 
 .button:hover, .button:focus {
     background-color: lightskyblue;
 }
+
