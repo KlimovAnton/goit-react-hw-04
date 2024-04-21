@@ -1,5 +1,5 @@
 .loader {
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
 }
